@@ -2,26 +2,24 @@
 
 import  _  from "lodash"
 
-const mary = "mary"
+const name = "mary"
 
 
 
-const upperMary= _.upperFirst(mary)
+const upperMary= _.upperFirst(name)
 
 console.log(upperMary)
 
 
 
 
-
-
 import {addNums, greet} from "./utils.js"
 
-console.log(greet("Mary"))
+console.log(greet("mary"))
 
 
 addNums
 
-console.log(5, 6)
+console.log(addNums(5, 6))
 
 
